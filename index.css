@@ -17,7 +17,6 @@ h3 {
 
 header {
   text-align: center;
-
   padding-top: 0.934em; /* 15px */
 }
 
@@ -37,6 +36,17 @@ nav a {
   color: #afc1d6;
 }
 
+nav li {
+  padding: 0.313em 0; /* 5px */
+}
+nav ul {
+  padding: 0 1.875em; /* 30px */
+}
+
+nav li:not(:last-child) {
+  border-bottom: 1px dotted #d9a5b3;
+}
+
 h1 {
   font-size: 1.4rem;
 }
@@ -54,6 +64,7 @@ img {
 
 ul {
   margin: 0;
+  padding: 0;
 }
 
 a {
