@@ -1,3 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lora", serif;
+}
+
+/* Typography */
+
+h1,
+h2,
+h3 {
+  font-family: "Cinzel Decorative", serif;
+  margin: 0;
+}
+
+/* Header */
+
+header {
+  text-align: center;
+  margin: 0.934em 0; /* 15px */
+  padding-top: 0.934em; /* 15px */
+}
+
+.sub-heading {
+  font-size: 0.8rem;
+  color: #d9a5b3;
+}
+
+/* Navigation */
+
+nav {
+  padding: 0.934em 0; /* 15px */
+}
+
+nav a {
+  font-size: 0.95rem;
+  color: #afc1d6;
+}
+
+h1 {
+  font-size: 1.4rem;
+}
+
+header,
+footer {
+  background-color: #3f4a68;
+  color: #afc1d6;
+}
+
 img {
+  display: block;
   width: 200px;
+}
+
+ul {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
 }
