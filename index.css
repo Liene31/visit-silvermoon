@@ -13,9 +13,26 @@ h3 {
   margin: 0;
 }
 
+h1 {
+  font-size: 1.4rem;
+}
+
+h2 {
+  font-size: 1.1rem;
+  color: #3f4a68;
+  margin-bottom: 0.278em; /* 5px */
+}
+
+h3 {
+  font-size: 1rem;
+  margin: 0.313em 0; /* 5px */
+  color: #3f4a68;
+}
+
 p {
   margin: 0;
   line-height: 1.5;
+  font-size: 0.9rem;
 }
 
 ul {
@@ -36,10 +53,6 @@ li {
 header {
   text-align: center;
   padding-top: 0.934em; /* 15px */
-}
-
-h1 {
-  font-size: 1.4rem;
 }
 
 .sub-heading {
@@ -78,14 +91,21 @@ footer {
 }
 
 main {
-  padding: 20px 15px;
+  padding: 1.25em 0.938em; /* 20px 15px */
+}
+
+.marvels ul,
+.amenities ul {
+  padding-left: 0.625em; /* 10px */
+  font-size: 13px; /**********/
 }
 
 /* Images */
 
 .introduction-img {
-  /* display: block; */
+  margin: 0.625em 0; /* 10px */
   width: 100%;
+  border-radius: 3px;
 }
 
 img {
