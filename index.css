@@ -13,11 +13,33 @@ h3 {
   margin: 0;
 }
 
+p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
 /* Header */
 
 header {
   text-align: center;
   padding-top: 0.934em; /* 15px */
+}
+
+h1 {
+  font-size: 1.4rem;
 }
 
 .sub-heading {
@@ -47,9 +69,7 @@ nav li:not(:last-child) {
   border-bottom: 1px dotted #d9a5b3;
 }
 
-h1 {
-  font-size: 1.4rem;
-}
+/* Section */
 
 header,
 footer {
@@ -57,20 +77,18 @@ footer {
   color: #afc1d6;
 }
 
+main {
+  padding: 20px 15px;
+}
+
+/* Images */
+
+.introduction-img {
+  /* display: block; */
+  width: 100%;
+}
+
 img {
   display: block;
-  width: 200px;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-}
-
-a {
-  text-decoration: none;
-}
-
-li {
-  list-style: none;
+  width: 48%;
 }
