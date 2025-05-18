@@ -100,6 +100,8 @@ footer {
   padding: 2em 1em; /* 20px 10px */
 }
 
+/* Section-specific Lists */
+
 .marvels ul,
 .amenities ul {
   font-size: 0.813rem; /* 13px */
@@ -135,4 +137,64 @@ img {
 .link-btn:hover {
   background-color: #d9a5b3;
   color: #3f4a68;
+}
+
+/* Media queries */
+
+@media (min-width: 750px) {
+  .header-wrapper {
+    background-color: #3f4a68;
+  }
+  header {
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    padding: 1.875em 0; /* 30px */
+    max-width: 750px;
+    margin: 0 auto;
+  }
+
+  h1 {
+    font-size: 1.563rem; /* 25px */
+  }
+
+  .sub-heading {
+    font-size: 0.95rem;
+  }
+
+  nav ul {
+    display: flex;
+    gap: 1.563em; /* 25px */
+  }
+
+  nav {
+    padding: 0;
+  }
+
+  nav li:not(:last-child) {
+    border-bottom: none;
+  }
+
+  main {
+    max-width: 750px;
+    margin: 0 auto;
+  }
+
+  .lodging-img {
+    display: flex;
+    gap: 0.625em; /* 10px */
+    margin: 0.938em 0; /* 15px */
+  }
+
+  .lodging img {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .link-btn {
+    display: inline;
+    padding: 13px 30px; /* 10px */
+    margin: 20px 0;
+    line-height: 4.5em;
+  }
 }
