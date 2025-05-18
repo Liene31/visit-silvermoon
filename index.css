@@ -94,6 +94,12 @@ main {
   padding: 1.25em 0.938em; /* 20px 15px */
 }
 
+footer {
+  text-align: center;
+  font-size: 0.625rem; /* 10px */
+  padding: 2em 1em; /* 20px 10px */
+}
+
 .marvels ul,
 .amenities ul {
   font-size: 0.813rem; /* 13px */
