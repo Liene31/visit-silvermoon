@@ -96,8 +96,9 @@ main {
 
 .marvels ul,
 .amenities ul {
-  padding-left: 0.625em; /* 10px */
-  font-size: 13px; /**********/
+  font-size: 0.813rem; /* 13px */
+  padding-left: 0.769em; /* 10px */
+  line-height: 1.5;
 }
 
 /* Images */
@@ -110,5 +111,26 @@ main {
 
 img {
   display: block;
-  width: 48%;
+  width: 50%;
+}
+
+/* Links */
+
+.link-btn {
+  display: block;
+  background-color: #3f4a68;
+  color: #d9a5b3;
+  width: 100%;
+  margin: 0.833em 0; /* 10px */
+  padding: 0.417em 0; /* 5px */
+  border-radius: 3px;
+  text-align: center;
+  font-family: "Cinzel Decorative", serif;
+  font-weight: bold;
+  font-size: 0.75rem; /* 12px */
+}
+
+.link-btn:hover {
+  background-color: #d9a5b3;
+  color: #3f4a68;
 }
